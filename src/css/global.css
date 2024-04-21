@@ -1,0 +1,57 @@
+:root{
+    --text: #f1ebf8;
+    --background: #0b0511;
+    --primary: #bc8fe9;
+    --secondary: #4d118a;
+    --accent: #8b27f2;
+
+    --font1: 'Clash Grotesk', sans-serif;
+    --font2: 'Outfit', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    scroll-behavior: smooth !important;
+    scrollbar-color: var(--primary) var(--secondary);
+    scrollbar-width: thin;
+}
+
+html, body{
+    position: relative;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    scroll-behavior: smooth !important;
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.spoiler {
+    filter: blur(20px);
+
+    user-select: none;
+
+    transition: 0.5s;
+}
+
+.spoiler:hover {
+    filter: blur(0);
+
+    user-select: auto;
+
+    transition: 0.5s;
+}
+
