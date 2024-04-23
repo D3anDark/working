@@ -55,3 +55,17 @@ html, body{
     transition: 0.5s;
 }
 
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('../fonts/ClashGrotesk-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
