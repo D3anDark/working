@@ -31,7 +31,6 @@ html, body{
     -moz-osx-font-smoothing: grayscale;
 
     scroll-behavior: smooth !important;
-    overflow-x: hidden;
 }
 
 ::selection {
