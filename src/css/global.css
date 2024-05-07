@@ -5,7 +5,7 @@
     --secondary: #4d118a;
     --accent: #8b27f2;
 
-    --font1: 'Clash Grotesk', sans-serif;
+    --font-family: 'Clash Grotesk', sans-serif;
     --font2: 'Outfit', sans-serif;
 }
 
@@ -53,18 +53,3 @@ html, body{
 
     transition: 0.5s;
 }
-
-@font-face {
-    font-family: 'Clash Grotesk';
-    src: url('../fonts/ClashGrotesk-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('../fonts/Outfit-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
