@@ -1,7 +1,7 @@
 body{
     background-color: var(--background);
     color: var(--text);
-    font-family: var(--font1);
+    font-family: var(--font-family), serif;
 }
 
 .container{
@@ -178,6 +178,14 @@ main .scroll-icon{
 
     pointer-events: none;
     overflow: hidden;
+}
+
+#last-in-grid{
+    grid-column: span 2;
+
+    font-size: 4.5rem;
+
+    opacity: 1;
 }
 
 @media screen and (max-width: 768px){
